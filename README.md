@@ -40,7 +40,7 @@ Revshow formatting is like:
 https://website.com/wp-login.php#username@password
 ```
 
-Defaukt formatting is like:
+Default formatting is like:
 ```
 A sites list with only:
 https://website.com/wp-login.php
