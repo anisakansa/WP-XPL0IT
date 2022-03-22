@@ -23,7 +23,7 @@ Do not apply any other filenames, this will cause the bot to not work:
 If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.
 
 # Proof Videos
-- <a href="https://www.youtube.com/watch?v=E0irsVNvWxg">Uploading Auto Shell on Real Web Server</a>
+- <a href="https://www.youtube.com/watch?v=MRoR9SuKCfE">Uploading Auto Shell on Real Web Server</a>
 - <a href="https://www.youtube.com/watch?v=gRa8VPdotDc">Proof Automatic Control</a>
 
 # Installation
