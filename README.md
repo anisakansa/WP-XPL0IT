@@ -21,7 +21,8 @@ Do not apply any other filenames, this will cause the bot to not work:
 <a href="#installation">After that, follow these installation instructions</a>
 ### While the bot is running do not move your mouse do not use your computer!
 # Very Important
-If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.
+If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.<br>
+- The bot get the coordinates on where to click on the screen by the screenshot images, be sure they are sharp enough otherwise it miss clicks.
 
 # Proof Videos
 - <a href="https://www.youtube.com/watch?v=MRoR9SuKCfE">Uploading Auto Shell on Real Web Server</a>
