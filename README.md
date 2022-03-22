@@ -16,5 +16,6 @@ Do not apply any other filenames, this will cause the bot to not work:
 - desktop.png =  Take a screenshot from a how your Desktop logo looks like in file explorer and save it in ``bot_photos/desktop.png``
 - exploit.png =  Take a screenshot from a how the WP-XPL0IT file looks like on your PC ``bot_photos/exploit.png``
 
+### While the bot is running do not move your mouse do not use your computer!
 # Very Important
 If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.
