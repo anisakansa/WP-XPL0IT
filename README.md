@@ -9,4 +9,4 @@ An automated BOT that completely controls your computer without you having to do
 But do not change the filenames only replace the screenshots with how your PC files look like
 ![changethem](https://user-images.githubusercontent.com/48758770/159557338-a6aeb6a6-964a-4145-9a88-c38b646c75f2.png)
 Do not apply any other filenames, this will cause the bot to not work:
-- ak.png =  Change this screenshot to the file screenshot you want to upload and save it in ``bot_photos``
+- ak.png =  Take a screenshot from a SPECIFIC SHELL file and replace the screenshot in ``bot_photos/ak.png`` with it.
