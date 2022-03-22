@@ -33,3 +33,7 @@ If a screenshot is not clear enough, the bot will not work. Make sure the screen
 pip install selenium
 pip install pyautogui
 ```
+# Credits
+- Z3NTL3 : Developed the whole WP-XPL0IT BOT
+- Bangladash Hacker Group: UBH Bypass Plugin
+- B4tm4n: Exploit Shell
