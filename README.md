@@ -52,3 +52,4 @@ user:pass
 - Z3NTL3 : Developed the whole WP-XPL0IT BOT
 - Bangladash Hacker Group: UBH Bypass Plugin
 - B4tm4n: Exploit Shell
+### WP-XPL0IT is only for EDUCATIONAL PURPOSES
