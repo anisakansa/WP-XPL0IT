@@ -17,6 +17,7 @@ Do not apply any other filenames, this will cause the bot to not work:
 - ak.png =  Take a screenshot from a SPECIFIC SHELL file and replace the screenshot in ``bot_photos/ak.png`` with it. 
 - desktop.png =  Take a screenshot from a how your Desktop logo looks like in file explorer and save it in ``bot_photos/desktop.png``
 - exploit.png =  Take a screenshot from a how the WP-XPL0IT file looks like on your PC ``bot_photos/exploit.png``
+Do not forget to add the shell file to the directory in WP-XPL0IT root (``ak.png picture defines the bot on what file it needs to click, it will be uploading it on the wordpress website``)
 <a href="#installation">After that, follow these installation instructions</a>
 ### While the bot is running do not move your mouse do not use your computer!
 # Very Important
