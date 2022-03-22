@@ -10,6 +10,7 @@ The installation is difficult.
 ### You HAVE to change the red marked screenshots to make this BOT WORK
 But do not change the filenames only replace the screenshots with how your PC files look like
 ![changethem](https://user-images.githubusercontent.com/48758770/159557338-a6aeb6a6-964a-4145-9a88-c38b646c75f2.png)
+### If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.
 Do not apply any other filenames, this will cause the bot to not work:
 - ak.png =  Take a screenshot from a SPECIFIC SHELL file and replace the screenshot in ``bot_photos/ak.png`` with it. 
 - desktop.png =  Take a screenshot from a how your Desktop logo looks like in file explorer and save it in ``bot_photos/desktop.png``
