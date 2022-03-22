@@ -3,7 +3,7 @@ An automated BOT that completely controls your computer without you having to do
 ![screen](https://user-images.githubusercontent.com/48758770/159556851-485fc172-a8c3-4903-98a6-6598d6d67e31.jpg)
 
 # README Before Starting
-###The installation is difficult.
+The installation is difficult.
 ### Very old wordpress websites wont work
 - Only tested on Windows
 - Should also work on Linux and MacOS<br>
