@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from sys import argv
-import multiprocessing
 import random
 from selenium.webdriver.support.ui import WebDriverWait
 import time
@@ -126,7 +125,7 @@ class Click():
 CURRENT_TIME = strftime('[%D] %H:%M:%S')
 # Z3NTL3
 FILEMANAGER = os.path.abspath(f"ubh.zip")
-ALPHA_SHELL = os.path.abspath(f"upshell.zip")
+
 
 def Run(*, site_list, username,passwords,timeout = 10):
     '''
@@ -349,7 +348,7 @@ LOGO = """
 if __name__ == '__main__':
     print(LOGO)      
 
-    if os.path.exists('bot_photos\\ak.png') and os.path.exists('bot_photos\\desktop.png') and os.path.exists('bot_photos\\exploit.png') and os.path.exists('bot_photos\\selectfiles.png') and os.path.exists('bot_photos\\ubhselecht.png') and os.path.exists('bot_photos\\ubhup.png'):
+    if os.path.exists('bot_photos\\ak.png') and os.path.exists('ubh.zip') and os.path.exists('bot_photos\\desktop.png') and os.path.exists('bot_photos\\exploit.png') and os.path.exists('bot_photos\\selectfiles.png') and os.path.exists('bot_photos\\ubhselecht.png') and os.path.exists('bot_photos\\ubhup.png'):
         pass
     else:
         print(f"\033[38;5;205m[ \033[38;5;207mSYSTEM: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou did not installl WP-XPL0IT properly\033[0m\033[0m")
