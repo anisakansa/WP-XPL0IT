@@ -5,3 +5,4 @@ An automated BOT that completely controls your computer without you having to do
 # README Before Starting
 - Only tested on Windows
 - Should also work on Linux and MacOS
+![change](https://user-images.githubusercontent.com/48758770/159557148-135202c2-f809-4b41-b984-0ee5573d722b.png)
