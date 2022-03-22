@@ -14,3 +14,6 @@ Do not apply any other filenames, this will cause the bot to not work:
 - ak.png =  Take a screenshot from a SPECIFIC SHELL file and replace the screenshot in ``bot_photos/ak.png`` with it. 
 - desktop.png =  Take a screenshot from a how your Desktop logo looks like in file explorer and save it in ``bot_photos/desktop.png``
 - exploit.png =  Take a screenshot from a how the WP-XPL0IT file looks like on your PC ``bot_photos/exploit.png``
+
+# Very Important
+If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.
