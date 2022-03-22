@@ -4,3 +4,4 @@ An automated BOT that completely controls your computer without you having to do
 
 # README Before Starting
 - Only tested on Windows
+- Should also work on Linux and MacOS
