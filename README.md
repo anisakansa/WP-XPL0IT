@@ -16,7 +16,7 @@ Do not apply any other filenames, this will cause the bot to not work:
 - ak.png =  Take a screenshot from a SPECIFIC SHELL file and replace the screenshot in ``bot_photos/ak.png`` with it. 
 - desktop.png =  Take a screenshot from a how your Desktop logo looks like in file explorer and save it in ``bot_photos/desktop.png``
 - exploit.png =  Take a screenshot from a how the WP-XPL0IT file looks like on your PC ``bot_photos/exploit.png``
-
+<a href="#installation">After that, follow these installation instructions</a>
 ### While the bot is running do not move your mouse do not use your computer!
 # Very Important
 If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.
@@ -24,3 +24,12 @@ If a screenshot is not clear enough, the bot will not work. Make sure the screen
 # Proof Videos
 - <a href="https://www.youtube.com/watch?v=E0irsVNvWxg">Uploading Auto Shell on Real Web Server</a>
 - <a href="https://www.youtube.com/watch?v=gRa8VPdotDc">Proof Automatic Control</a>
+
+# Installation
+- Install Python3 on your windows <a href="https://www.python.org/downloads/">Download</a>
+- Install Google Chrome on your Computer
+- Execute the following commands in your CMD after installing Python3:
+```shell
+pip install selenium
+pip install pyautogui
+```
