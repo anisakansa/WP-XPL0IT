@@ -6,4 +6,5 @@ An automated BOT that completely controls your computer without you having to do
 - Only tested on Windows
 - Should also work on Linux and MacOS<br>
 ### You HAVE to change the red marked screenshots to make this BOT WORK
+But do not change the filenames only replace the screenshots with how your PC files look like
 ![changethem](https://user-images.githubusercontent.com/48758770/159557338-a6aeb6a6-964a-4145-9a88-c38b646c75f2.png)
