@@ -20,3 +20,7 @@ Do not apply any other filenames, this will cause the bot to not work:
 ### While the bot is running do not move your mouse do not use your computer!
 # Very Important
 If a screenshot is not clear enough, the bot will not work. Make sure the screenshot is sharp enough.
+
+# Proof Videos
+- <a href="">Uploading Auto Shell on Real Web Server</a>
+- <a href="https://www.youtube.com/watch?v=gRa8VPdotDc">Proof Automatic Control</a>
