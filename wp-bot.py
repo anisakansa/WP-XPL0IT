@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from sys import argv
+import multiprocessing
 import random
 from selenium.webdriver.support.ui import WebDriverWait
 import time
@@ -430,7 +431,7 @@ if __name__ == '__main__':
                 user,password = WPXPLOIT[0].split(':')
                 driver = Browser().Driver()
                 driver.set_window_size(1100, 1080)
-                th = threading.Thread(target=Run(site_list=f'{WPXPLOIT[1]}', username=f'{user}',passwords=f'{password}'))
+                th = threading.Thread(target=Run(site_list=f'{WPXPLOIT[1]}', username=f'{user}',passwords=f'{password}', timeout=timeout))
                 th.daemon = True
                 th.start()
                 th.join() 
@@ -460,7 +461,7 @@ if __name__ == '__main__':
                 print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mLoaded {Browser.SitesAmount(prompted_list=str(fileloc))} websites\033[0m\033[0m")
                 driver = Browser().Driver()
                 driver.set_window_size(1920, 1080)
-                th = threading.Thread(target=Run(site_list=f'{sites}', username=f'{username}',passwords=f'{passwd}', timeout=10))
+                th = threading.Thread(target=Run(site_list=f'{sites}', username=f'{username}',passwords=f'{passwd}', timeout=timeout))
                 th.daemon = True
                 th.start()
                 th.join() 
