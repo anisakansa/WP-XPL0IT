@@ -47,6 +47,8 @@ https://website.com/wp-login.php
 Userpass combo list txt with only:
 user:pass
 ```
+# Timeout
+Timeout means how long should the bot retry to find an website element. Set 20sec or more if the website is very slow
 
 # Credits
 - Z3NTL3 : Developed the whole WP-XPL0IT BOT
