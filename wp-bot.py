@@ -425,6 +425,7 @@ if __name__ == '__main__':
 
         userpassLIST = Browser.UserPass(prompted_list=f'{userpass}')
         sitelist = Browser.SiteList(prompted_list=str(fileloc))
+        stop = False
         for WPXPLOIT in zip(userpassLIST,sitelist):
             try:
                 print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mLoaded {Browser.SitesAmount(prompted_list=str(fileloc))} websites\033[0m\033[0m")
@@ -436,10 +437,16 @@ if __name__ == '__main__':
                 th.start()
                 th.join() 
             except KeyboardInterrupt:
-                print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou pressed CTRL + C meaning me to EXIT\033[0m\033[0m")
-                exit(0)
+                stop = True
+                break
+
             except:
                 print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mUserPass Formatting not valid\033[0m\033[0m")
+        if stop:
+            print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou pressed CTRL + C meaning me to EXIT\033[0m\033[0m")
+            exit(0)
+        else:
+            pass
         print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mAll Sites Have been Scanned\033[0m\033[0m")
 
     elif question == 'Revshow':
@@ -452,6 +459,7 @@ if __name__ == '__main__':
         RevShow_Format_USERPASS = Browser.CrazyFormatUserPass(prompted_list=f'{fileloc}')
         RevShow_Format_SITES = Browser.CrazyFormatSites(prompted_list=f'{fileloc}')
 
+        stop = False
         for WPXPLOIT in zip(RevShow_Format_SITES,RevShow_Format_USERPASS):
             try:
                 sites = WPXPLOIT[0]
@@ -466,12 +474,18 @@ if __name__ == '__main__':
                 th.start()
                 th.join() 
             except KeyboardInterrupt:
-                print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou pressed CTRL + C meaning me to EXIT\033[0m\033[0m")
-                exit(0)
+                stop = True
+                break
             except:
                 print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mUserPass Formatting not valid\033[0m\033[0m")
     else:
         print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mInvalid Option is Chosen\033[0m\033[0m")
         exit(0)          
+    
+    if stop:
+        print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou pressed CTRL + C meaning me to EXIT\033[0m\033[0m")
+        exit(0)
+    else:
+        pass
     print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mAll Sites Have been Scanned\033[0m\033[0m")
             
