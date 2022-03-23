@@ -478,14 +478,13 @@ if __name__ == '__main__':
                 break
             except:
                 print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mUserPass Formatting not valid\033[0m\033[0m")
+        if stop:
+            print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou pressed CTRL + C meaning me to EXIT\033[0m\033[0m")
+            exit(0)
+        else:
+            print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mAll Sites Have been Scanned\033[0m\033[0m")
     else:
         print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mInvalid Option is Chosen\033[0m\033[0m")
         exit(0)          
     
-    if stop:
-        print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mYou pressed CTRL + C meaning me to EXIT\033[0m\033[0m")
-        exit(0)
-    else:
-        pass
-    print(f"\033[38;5;205m[ \033[38;5;207mSTARTING: \033[38;5;219m{strftime('[%D] %H:%M:%S')} \033[38;5;205m] \033[38;5;207mAll Sites Have been Scanned\033[0m\033[0m")
             
